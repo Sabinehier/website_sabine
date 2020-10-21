@@ -1,0 +1,113 @@
+baseURL       = "http://example.org/"
+languageCode  = "en-us"
+title         = "SABINE HIERONYMUS | CONCEPT & CONTENT"
+theme = "roxo-hugo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+ # [[menu.nav]]
+  #  name    = "Portfolio"
+   # url     = "portfolio"
+    #weight  = 3
+  [[menu.nav]]
+    name    = "Get in touch"
+    url     = "contact"
+    weight  = 5
+
+# Site Params
+[params]
+  #logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+  author = "Sabine Hieronymus"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/f/xwkwopnb"
+
+
+
+  # Navbar Action Button
+ # [params.navAction]
+  #  status  = false
+   # name    = "Get in touch"
+    #url     = "contact"
+
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "SABINE HIERONYMUS"
+    tagline               = "CONCEPT & CONTENT"
+    primary_button        = "More about me"
+    primary_button_url    = "about"
+    secondary_button      = "Connect with Me"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = false
+    title     = "OUR RECENT WORKS"
+    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "LET’S WORK TOGETHER"
+    #primary_button      = "Submit Query"
+    #primary_button_url  = "contact"
+    #secondary_button    = "Not Convinced"
+    #secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact"
+      address = "Sabine Hieronymus<br>Herzogstr. 8<br>70176 Stuttgart<br>0176 70289717"
+      email   = "sabinehieronymus@yahoo.de"
+      # Footer Sitemap
+      #[params.footer.sitemap]
+       # title   = "Sitemap"
+        #[[params.footer.sitemap.link]]
+         # name = "About Company"
+          #url  = "about"
+      #  [[params.footer.sitemap.link]]
+        #  name = "Projects"
+       #   url  = "portfolio"
+        #[[params.footer.sitemap.link]]
+         # name = "Contact"
+          #url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Connect"
+        [[params.footer.social.link]]
+          name = "Xing"
+          icon = "fa fa-xing"
+          url  = "https://www.xing.com/profile/Sabine_Hieronymus/cv"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          icon = "fa fa-instagram"
+          url  = "https://www.instagram.com/sabinehier/"
+        [[params.footer.social.link]]
+          name = "Twitter"
+          icon = "fa fa-twitter"
+          url = "https://twitter.com/sabinehier_"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          icon = "fa fa-facebook"
+          url  = "https://www.facebook.com/sabine.hieronymus"
+      # Footer Service
+      [params.footer.service]
+        title       = "We help brands:"
+        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
