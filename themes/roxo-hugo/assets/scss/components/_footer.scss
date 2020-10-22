@@ -1,8 +1,8 @@
 .site-footer{
   background: $secondary-color;
-  padding: 100px 0;
+  padding: 60px 0;
   &-logo{
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     @include mobile{
       text-align: center;
     }
@@ -20,30 +20,34 @@
       @include desktop{
         margin-bottom: 20px;
       }
+        a{
+        color: $white;
+        text-decoration: underline;
+           &:hover {
+        color: $primary-color;
+                   }
+         }    
     }
     &-description{
       color: $white;
-      line-height: 30px;
+      line-height: 15px;
       a{
         color: $white;
+        text-decoration: underline;
+        &:hover {
+            color: $primary-color;
+                }
       }
     }
     &-links{
-      margin: 0;
-      padding: 0;
-      li{
-        list-style: none;
-        a{
+           a{
           color: $white;
-          transition: all 0.3s $site-ease;
-          display: block;
+          padding-right: 7px;
+               transition: all 0.3s $site-ease;
+               &:hover {
+        color: $primary-color;
+                       }
         }
-        &:not(:last-child){
-          a{
-            padding-bottom: 9px;
-          }
-        }
-      }
     }
     &-top{
       @include mobile{
@@ -55,9 +59,6 @@
       }
       p{
         color: $white;
-      }
-      &:hover{
-        text-decoration: none;
       }
     }
   }

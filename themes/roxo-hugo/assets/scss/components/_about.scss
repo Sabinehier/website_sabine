@@ -42,4 +42,18 @@
       margin-bottom: 0;
     }
   }
+      &-description2{
+    width: 60%;
+    padding-left: 50px;
+    @include desktop{
+      width: 100%;
+      padding: 0 38px;
+    }
+    p{
+    color: $black;
+      font-size: 25px;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+  }
 }

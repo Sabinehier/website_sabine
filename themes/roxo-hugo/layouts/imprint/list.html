@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<section class="site-imprint-header">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h1>{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="site-imprint details">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <article class="site-blog-details">
+          {{ .Content }}
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{ end }}

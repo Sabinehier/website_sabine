@@ -74,11 +74,11 @@ summarylength = 25
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact"
-      address = "0176 7028 9717"
+      address = "+ 49 (0)176 7028 9717"
       email   = "sabinehieronymus@yahoo.de"
       # Footer Sitemap
-      #[params.footer.sitemap]
-       # title   = "Sitemap"
+      [params.footer.sitemap]
+        title   = ""
         #[[params.footer.sitemap.link]]
          # name = "About Company"
           #url  = "about"
@@ -93,21 +93,22 @@ summarylength = 25
         title   = "Connect"
         [[params.footer.social.link]]
           name = "Xing"
-          icon = "fa fa-xing"
+          icon = "fa fa-xing fa-lg"
           url  = "https://www.xing.com/profile/Sabine_Hieronymus/cv"
         [[params.footer.social.link]]
           name = "Instagram"
-          icon = "fa fa-instagram"
-          url  = "https://www.instagram.com/sabinehier/"
+          icon = "fa fa-instagram fa-lg"
+          url  = "https://www.instagram.com/sabinehier"
         [[params.footer.social.link]]
           name = "Twitter"
-          icon = "fa fa-twitter"
+          icon = "fa fa-twitter fa-lg"
           url = "https://twitter.com/sabinehier_"
         [[params.footer.social.link]]
           name = "Facebook"
-          icon = "fa fa-facebook"
+          icon = "fa fa-facebook fa-lg"
           url  = "https://www.facebook.com/sabine.hieronymus"
       # Footer Service
       [params.footer.service]
-        title       = "Why me?"
-        description = "strategisch<br>kreativ<br>zielgruppenorientiert<br>strukturiert"
+        title       = "Impressum & Datenschutz"
+        url     = "imprint"
+        description = "© Sabine Hieronymus 2020"
