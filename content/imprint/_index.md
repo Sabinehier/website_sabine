@@ -9,8 +9,7 @@ description: Lorem imposum
   Sabine Hieronymus  
   Herzogstr. 8  
   70176 Stuttgart  
-  Sabinehieronymus@yahoo.de  
-  0176 24354588
+ 
 
  
 ##### HAFTUNGSAUSSCHLUSS
@@ -36,7 +35,7 @@ Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (
 
 
 ##### DATENSCHUTZERKLÄRUNG
-Verantwortlich im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist: Sabine Hieronymus. 
+Verantwortlich im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist Sabine Hieronymus. 
 
  
 
