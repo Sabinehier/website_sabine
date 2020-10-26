@@ -1,4 +1,4 @@
-baseURL       = "http://example.org/"
+baseURL       = "https://goofy-bell-ca1270.netlify.app"
 languageCode  = "en-us"
 title         = "SABINE HIERONYMUS | CONCEPT & CONTENT"
 theme = "roxo-hugo"
