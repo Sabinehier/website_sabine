@@ -110,5 +110,5 @@ summarylength = 25
       # Footer Service
       [params.footer.service]
         title       = "Impressum & Datenschutz"
-        url     = "imprint"
+        url     = "/imprint"
         description = "© Sabine Hieronymus 2020"
