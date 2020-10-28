@@ -1,4 +1,4 @@
-baseURL       = "http://sabinehieronymus.de"
+baseURL       = "https://www.sabinehieronymus.de"
 languageCode  = "en-us"
 title         = "SABINE HIERONYMUS | CONCEPT & CONTENT"
 theme = "roxo-hugo"
