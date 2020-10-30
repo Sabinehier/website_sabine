@@ -75,7 +75,7 @@ summarylength = 25
     [params.footer.contactInfo]
       title   = "Contact"
       address = "+ 49 (0)176 7028 9717"
-      email   = "sabinehieronymus@icloud.com"
+      email   = "kontakt@sabinehieronymus.de"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = ""
